@@ -1,0 +1,61 @@
+/* here i am using receptionist css along with additional add student */
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+.header{
+    background-color: skyblue;
+    line-height: 70px;
+    padding-left: 30px;
+}
+
+header a{
+    
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    font-weight: bold;
+}
+
+.logout{
+    float: right;
+    padding-right: 30px;
+}
+
+ul{
+    background-color: #424a5b;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+
+ul li{
+    list-style:none;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+ul li a{
+    color:white;
+    font-size: bold;
+}
+ul li a:hover
+{
+    color:skyblue;
+    text-decoration: none;
+}
+
+/* only this below changes */
+
+/* body div{
+    padding-left: 120px; ;
+} */
+div h1{
+    
+    padding-top: 40px;
+    font-size: 35px;
+    color: black;
+}
